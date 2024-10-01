@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEAM VELOCITÀ AZZURRA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #4CAF50;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .team-info, .history, .gallery {
+            margin: 20px 0;
+        }
+        .riders, .results {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .rider, .result {
+            background-color: #e7f3fe;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px;
+            flex-basis: 48%;
+            transition: transform 0.3s;
+        }
+        .rider:hover, .result:hover {
+            transform: scale(1.05);
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Team Velocità Azzurra</h1>
+        <p>Passione, determinazione e successo nel ciclismo</p>
+    </header>
+    
+    <nav>
+        <a href="#team-info">La Squadra</a>
+        <a href="#riders">I Corridori</a>
+        <a href="#results">Risultati</a>
+        <a href="#history">Storia</a>
+        <a href="#gallery">Galleria</a>
+    </nav>
+
+    <div class="container">
+        <section id="team-info" class="team-info">
+            <h2>La Squadra</h2>
+            <p>Il Team Velocità Azzurra è stato fondato nel 2019 a Pescara, sulla splendida costa adriatica. Sotto la guida del presidente <strong>Danilo Napolitano</strong> e del vicepresidente <strong>Luca Poggiali</strong>, la squadra si è rapidamente affermata nel panorama ciclistico italiano.</p>
+            <p>Il direttore sportivo <strong>Emanuele Piazza</strong>, ex ciclista di successo, guida i corridori con esperienza e saggezza, creando un ambiente di crescita e collaborazione.</p>
+        </section>
+        
+        <section id="riders" class="riders">
+            <h2>I Corridori</h2>
+            <div class="rider">
+                <h3><a href="https://www.procyclingstats.com/rider/elia-belluschi1" target="_blank">Elia Belluschi</a></h3>
+                <p><strong>Nato:</strong> Lecco, 2000</p>
+                <p>Specialità: Scalatore puro, noto per la sua abilità nelle salite ripide.</p>
+            </div>
+            <div class="rider">
+                <h3><a href="https://www.procyclingstats.com/rider/alessandro-bonalda/start" target="_blank">Alessandro Bonalda</a></h3>
+                <p><strong>Nato:</strong> Padova, 1998</p>
+                <p>Specialità: Velocista, eccelle nelle volate finali.</p>
+            </div>
+            <div class="rider">
+                <h3><a href="https://www.procyclingstats.com/rider/enrico-russo" target="_blank">Federico Firrinceli</a></h3>
+                <p><strong>Nato:</strong> Perugia, 1997</p>
+                <p>Specialità: Passista scalatore, versatile e instancabile.</p>
+            </div>
+        </section>
+        
+        <section id="results" class="results">
+            <h2>Risultati della Stagione 2024</h2>
+            <div class="result">
+                <h3>Febbraio</h3>
+                <p>Elia Belluschi ha conquistato il Gran Premio dell’Adriatico, dimostrando grande talento nelle salite.</p>
+            </div>
+            <div class="result">
+                <h3>Aprile</h3>
+                <p>Alessandro Bonalda ha vinto il Trofeo Città di Verona, dominando la volata finale.</p>
+            </div>
+            <div class="result">
+                <h3>Giugno</h3>
+                <p>Federico Firrinceli ha ottenuto il secondo posto al Giro dell’Umbria, confermando le sue capacità nel lungo periodo.</p>
+            </div>
+        </section>
+        
+        <section id="history" class="history">
+            <h2>Storia del Team</h2>
+            <p>Dal 2019, il Team Velocità Azzurra ha scalato rapidamente le classifiche italiane, portando giovani talenti alla ribalta. La squadra ha partecipato a numerosi eventi internazionali e ha ottenuto diversi podi, diventando un punto di riferimento nel ciclismo italiano.</p>
+            <p>Con un forte focus sulla formazione e sullo sviluppo dei giovani, la squadra continua a investire nella prossima generazione di ciclisti, mirando a un futuro di successi.</p>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <h2>Galleria Fotografica</h2>
+            <img src="file-xWkDG6qCxQt1sdnEmKNrOuUp.jpg" alt="Elia Belluschi">
+            <img src="file-S3X8rUTeMINbPLtf1Go0UQ94.jpg" alt="Alessandro Bonalda">
+            <img src="file-wcmPmEBPmrdpqg3mnBb1wAEC.jpg" alt="Federico Firrinceli">
+        </section>
+
+        <section>
+            <h2>Prospettive Future</h2>
+            <p>Concludendo la stagione tra le prime 10 squadre italiane, il Team Velocità Azzurra guarda al futuro con entusiasmo e determinazione, puntando a raggiungere nuovi traguardi e a valorizzare sempre di più i giovani talenti.</p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Team Velocità Azzurra. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
